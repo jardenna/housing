@@ -1,0 +1,26 @@
+klik på hele billede
+skal billede blive større on hover? så bg image?
+
+alt tekst?
+
+.grid-container {
+
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+
+   .grid-item {
+      padding: 20px;
+      background-color: $color-gray;
+
+   }
+
+   .two-columns {
+      grid-column: 2 span;
+   }
+
+   .two-rows {
+      grid-row: 2 span;
+   }
+
+}
